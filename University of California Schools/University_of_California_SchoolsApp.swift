@@ -6,13 +6,15 @@
 //
 
 import SwiftUI
-import Foundation
 
 @main
 struct University_of_California_SchoolsApp: App {
+    @State private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(modelData)
         }
     }
 }
