@@ -2,7 +2,7 @@
 //  UCSchool.swift
 //  University of California Schools
 //
-//  Created by Stefan Cutovic on 2/6/25.
+//  Created by Stefan Cutovic on 1/22/25.
 //
 
 import Foundation
@@ -17,7 +17,6 @@ struct UCSchool: Hashable, Codable, Identifiable {
     var city: String
     var founded: Int
     var topMajors: [String]
-    var isFavorite: Bool
     var isFeatured: Bool
     var enrollment: Int
     var tuition: Tuition
@@ -59,25 +58,5 @@ struct UCSchool: Hashable, Codable, Identifiable {
     
     var logo: Image {
         Image(logoName)
-    }
-    
-    // User-specific data (in-memory changes)
-    private var _userRating: Int = 0
-    var userRating: Int {
-        get { _userRating }
-        set { _userRating = min(max(newValue, 0), 5) } // Ensures rating is between 0 and 5
-    }
-    
-    private var _userNotes: String = ""
-    var userNotes: String {
-        get { _userNotes }
-        set { _userNotes = newValue }
-    }
-    
-    // These properties won't be encoded/decoded since they're for temporary storage
-    enum CodingKeys: String, CodingKey {
-        case id, name, shortName, city, founded, topMajors, isFavorite, isFeatured
-        case enrollment, tuition, rankings, category, imageName, logoName, coordinates
-        // Note: userRating and userNotes are deliberately omitted from coding keys
     }
 }

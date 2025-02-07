@@ -2,7 +2,7 @@
 //  DetailRow.swift
 //  University of California Schools
 //
-//  Created by Stefan Cutovic on 2/6/25.
+//  Created by Stefan Cutovic on 1/22/25.
 //
 
 import SwiftUI
@@ -36,13 +36,4 @@ struct DetailRow: View {
         }
         .padding(.vertical, 4)
     }
-}
-
-#Preview {
-    VStack {
-        DetailRow(title: "Founded", value: "1868", iconName: "calendar")
-        DetailRow(title: "Location", value: "Berkeley", iconName: "mappin")
-        DetailRow(title: "Enrollment", value: "45,000")
-    }
-    .padding()
 }

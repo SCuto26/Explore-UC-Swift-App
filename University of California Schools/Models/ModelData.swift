@@ -2,7 +2,7 @@
 //  ModelData.swift
 //  University of California Schools
 //
-//  Created by Stefan Cutovic on 2/6/25.
+//  Created by Stefan Cutovic on 1/22/25.
 //
 
 import SwiftUI
@@ -12,16 +12,10 @@ import CoreLocation
 @Observable
 final class ModelData: ObservableObject {
     var schools: [UCSchool] = load("ucschools.json")
+    var comparisonModel = ComparisonModel()
     
     var features: [UCSchool] {
         schools.filter { $0.isFeatured }
-    }
-    
-    var categories: [String: [UCSchool]] {
-        Dictionary(
-            grouping: schools,
-            by: { $0.category }
-        )
     }
 }
 
