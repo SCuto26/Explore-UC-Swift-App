@@ -1,4 +1,4 @@
-##UC Explore##
+# UC Explore
 
 UC Explore is an application designed to help undergraduate students explore and compare the various University of California campuses. The app features all nine undergraduate UC campuses (excluding UC San Francisco, which is exclusively a graduate institution) and provides detailed information about each school's unique characteristics, rankings, and offerings.
 
@@ -11,6 +11,7 @@ UC Explore is an application designed to help undergraduate students explore and
 - Compare up to three schools side by side with a comparison tool  
 
 **Notable Implementation**
+
 One feature I'd like to highlight is the comparison tool, which was inspired by my own experience as a prospective UC student. When I was applying to universities, I always wished for a way to see key information about specific schools side by side, rather than having to switch between multiple tabs or pages. The comparison feature in UC Explore makes this process seamless and intuitive.
 
 I also implemented a playful, yet meaningful animation system for the category filters. When selecting a category (like "Coastal" or "Urban"), relevant emojis float across the screen to provide visual feedback. While perhaps not essential to the app's core functionality, I'm proud I challenged myself to independently explore more of SwiftUI's capabilities beyond the course material (i.e. through Swift's official site, YouTube tutorials, etc.) and implement this feature as I envisioned it (sort of haha). The same could be said for some other components within the project files as you'll see 
