@@ -1,4 +1,4 @@
-##UC Explore
+##UC Explore##
 
 UC Explore is an application designed to help undergraduate students explore and compare the various University of California campuses. The app features all nine undergraduate UC campuses (excluding UC San Francisco, which is exclusively a graduate institution) and provides detailed information about each school's unique characteristics, rankings, and offerings.
 
