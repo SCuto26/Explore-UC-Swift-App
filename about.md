@@ -3,11 +3,12 @@
 UC Explore is an application designed to help undergraduate students explore and compare the various University of California campuses. The app features all nine undergraduate UC campuses (excluding UC San Francisco, which is exclusively a graduate institution) and provides detailed information about each school's unique characteristics, rankings, and offerings.
 
 **Key Features**
-*Browse featured and complete lists of UC schools
-*Search by name, abbreviation, or city
-*Filter schools by campus environment
-*View information including rankings, tuition, top majors, and campus location
-*Compare up to three schools side by side with a comparison tool
+
+- Browse featured and complete lists of UC schools  
+- Search by name, abbreviation, or city  
+- Filter schools by campus environment  
+- View information including rankings, tuition, top majors, and campus location  
+- Compare up to three schools side by side with a comparison tool  
 
 **Notable Implementation**
 One feature I'd like to highlight is the comparison tool, which was inspired by my own experience as a prospective UC student. When I was applying to universities, I always wished for a way to see key information about specific schools side by side, rather than having to switch between multiple tabs or pages. The comparison feature in UC Explore makes this process seamless and intuitive.
